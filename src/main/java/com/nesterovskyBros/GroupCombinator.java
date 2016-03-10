@@ -13,7 +13,7 @@ public class GroupCombinator
 {
   /**
    * For a sequence of items builds a list of matching groups.
-   * @param identity and identity instance used for the group.
+   * @param identity an identity instance used for the group.
    * @param items original sequence of items.
    * @param matcher a group matcher of item against a group.
    * @param combiner creates a new group from a group (optional) and an item.
@@ -49,7 +49,7 @@ public class GroupCombinator
 
   /**
    * For a sequence of items builds a list of matching groups.
-   * @param identity and identity instance used for the group.
+   * @param identity an identity instance used for the group.
    * @param items original sequence of items.
    * @param matcher an item matcher.
    * @return a list of matching groups.

@@ -24,7 +24,7 @@ it's straightforward and definitely fastest among all implementations we tried.<
 <p>So, here is the code:</p>
 <blockquote><pre>/**
  * For a sequence of items builds a list of matching groups.
- * @param identity and identity instance used for the group.
+ * @param identity an identity instance used for the group.
  * @param items original sequence of items.
  * @param matcher a group matcher of item against a group.
  * @param combiner creates a new group from a group (optional) and an item.
